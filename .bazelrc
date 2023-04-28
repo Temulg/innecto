@@ -1,0 +1,4 @@
+build --experimental_convenience_symlinks=ignore
+build --java_language_version=19  --extra_toolchains=@local_jdk//:all --tool_java_runtime_version=local_jdk --java_runtime_version=local_jdk
+build --javacopt="--enable-preview"
+run --jvmopt="--enable-preview"
