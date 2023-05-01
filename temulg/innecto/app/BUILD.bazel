@@ -3,4 +3,7 @@ java_binary(
 	name = "app",
 	srcs = glob(["*.java"]),
 	main_class = "temulg.innecto.app.App",
+	deps = [
+		"@maven//:org_apache_groovy_groovy",
+	],
 )

@@ -1,0 +1,8 @@
+
+def a = 1
+
+println "aaaa ${a}"
+
+java_binary ("t1") {
+	name = "aaa"
+}
